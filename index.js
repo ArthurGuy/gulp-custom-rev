@@ -42,7 +42,7 @@ var plugin = function (customHash) {
 		var hash = customHash;
 
 		//If a hash wasn't supplied generate one
-		if (hash.length = 0) {
+		if (typeof hash == 'undefined') {
 			hash = file.revHash = md5(file.contents).slice(0, 8);
 		}
 
