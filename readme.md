@@ -1,4 +1,4 @@
-# [gulp](https://github.com/wearefractal/gulp)-rev [![Build Status](https://travis-ci.org/sindresorhus/gulp-custom-rev.svg?branch=master)](https://travis-ci.org/arthurguy/gulp-custom-rev)
+# gulp-custom-rev [![Build Status](https://travis-ci.org/sindresorhus/gulp-custom-rev.svg?branch=master)](https://travis-ci.org/arthurguy/gulp-custom-rev)
 
 > Static asset revisioning by appending content hash to filenames
 `unicorn.css` → `unicorn-098f6bcd.css`
