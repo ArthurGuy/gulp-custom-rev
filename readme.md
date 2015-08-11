@@ -1,4 +1,4 @@
-# [gulp](https://github.com/wearefractal/gulp)-rev [![Build Status](https://travis-ci.org/sindresorhus/gulp-rev.svg?branch=master)](https://travis-ci.org/sindresorhus/gulp-rev)
+# [gulp](https://github.com/wearefractal/gulp)-rev [![Build Status](https://travis-ci.org/sindresorhus/gulp-custom-rev.svg?branch=master)](https://travis-ci.org/arthurguy/gulp-custom-rev)
 
 > Static asset revisioning by appending content hash to filenames
 `unicorn.css` → `unicorn-098f6bcd.css`
@@ -9,7 +9,7 @@ Make sure to set the files to [never expire](http://developer.yahoo.com/performa
 ## Install
 
 ```sh
-$ npm install --save-dev gulp-rev
+$ npm install --save-dev gulp-custom-rev
 ```
 
 
@@ -17,11 +17,11 @@ $ npm install --save-dev gulp-rev
 
 ```js
 var gulp = require('gulp');
-var rev = require('gulp-rev');
+var rev = require('gulp-custom-rev');
 
 gulp.task('default', function () {
 	return gulp.src('src/*.css')
-		.pipe(rev())
+		.pipe(rev('custom-hash'))
 		.pipe(gulp.dest('dist'));
 });
 ```
