@@ -1,9 +1,9 @@
 {
-  "name": "gulp-rev",
+  "name": "gulp-custom-rev",
   "version": "2.0.1",
   "description": "Static asset revisioning by appending content hash to filenames: unicorn.css => unicorn-098f6bcd.css",
   "license": "MIT",
-  "repository": "sindresorhus/gulp-rev",
+  "repository": "arthurguy/gulp-custom-rev",
   "author": {
     "name": "Sindre Sorhus",
     "email": "sindresorhus@gmail.com",
@@ -11,9 +11,8 @@
   },
   "maintainers": [
     {
-      "name": "Justin Hileman",
-      "email": "justin@justinhileman.info",
-      "url": "http://justinhileman.info"
+      "name": "Arthur Guy",
+      "email": "arthur@arthurguy.co.uk"
     }
   ],
   "engines": {
