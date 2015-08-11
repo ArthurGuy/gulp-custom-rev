@@ -46,7 +46,6 @@ var plugin = function (customHash) {
 			hash = file.revHash = md5(file.contents).slice(0, 8);
 		}
 
-		var hash = file.revHash = md5(file.contents).slice(0, 8);
 		var ext = path.extname(file.path);
 		var filename = path.basename(file.path, ext) + '-' + hash + ext;
 		file.path = path.join(path.dirname(file.path), filename);
